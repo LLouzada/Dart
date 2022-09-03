@@ -47,7 +47,16 @@ bool isMaior(idade) {
 
 //for
 void forLoop() {
-  for (int i = 0; i < 60; i++) {
+  for (int i = 0; i < 5; i++) {
     print('concluí ${i + 1} voltas');
+  }
+}
+
+//while
+int energia = 100;
+void whileLoop() {
+  while (energia > 0) {
+    print('energia: $energia');
+    energia -= 10;
   }
 }
